@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+    <script src="js/app.js"></script>
+    <title>Sing Up</title>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="return send()">
+            <div class="form__title">Create An Account</div>
+            <div class="form__text">Create an account to enjoy all the services <br> without any ads for free!</div>
+            <input type="text" id="fname" name="fname" class="name"  placeholder="Name">
+            <p class="error"></p>
+            <br>
+            <input type="email" id="email" name="email" class="meil" placeholder="Email Address">
+            <p class="error2"></p>
+            <br>
+            <input type="password" id="pwd" name="pwd" class="pwd" placeholder="Password">
+            <p class="error3"></p>
+            <br>
+        <input type="submit" value="Create Account">
+        <div class="form__text">Already Have An Account? <u>Sign In</u></div>
+        </form>
+    </div>
+</body>
+</html>
